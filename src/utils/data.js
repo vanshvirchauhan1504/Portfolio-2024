@@ -40,33 +40,21 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: "Senior Frontend Developer at Tech Innovators",
-    date: "January 2022 - Present",
+    title: "Web Development Intern",
+    date: "June 2023 - July 2023",
     responsibilities: [
-      "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
-      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
-      "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development efficiency.",
+      "Created a web-based automation data extractor tool for LinkedIn",
+      "Contributed to the new Wix-based Edtech platform website for the company offering online courses, live session andcommunities.",
+      "AI-based content generation for educational courses resulting in reduced costs.",
+      "Integration of secure payment functionalities and interactive community engagement features."
     ],
   },
   {
-    title: "Junior Web Developer at Digital Solution",
-    date: "June 2020 - December 2021",
+    title: "Freelancer@Upwork",
+    date: "June 2023 - Present",
     responsibilities: [
-      "Developed and maintained client websites, ensuring high-quality standards and timely project delivery.",
-      "Implemented SEO best practices, leading to a 25% increase in organic search traffic for key clients.",
-      "Worked closely with the design team to create pixel-perfect, cross-browser-compatible web pages.",
-      "Conducted code reviews and mentored junior developers in adopting best coding practices.",
+      "Offering professional services of website development for businesses and individuals",
+      "Experiencing one-to-one communication with clients"
     ],
-  },
-  {
-    title: "Frontend Intern at Web Studio",
-    date: "May 2019 - August 2019",
-    responsibilities: [
-      "Assisted in the development of a new e-commerce platform, contributing to the implementation of frontend features using React.js.",
-      "Conducted performance optimization tasks, resulting in a 15% improvement in page load times.",
-      "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and resolve coding issues.",
-      "Gained hands-on experience with version control systems, specifically Git, in a collaborative development environment.",
-    ],
-  },
+  }
 ];

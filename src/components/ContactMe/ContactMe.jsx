@@ -13,21 +13,25 @@ const ContactMe = () => {
           <ContactInfoCard
             iconUrl="./assets/images/email-icon.svg"
             text="vanshvirchauhan1504@gmail.com"
+            name="Email"
           />
 
           <ContactInfoCard
             iconUrl="./assets/images/github-icon.svg"
-            text="https://github.com/time-to-program"
+            text="www.linkedin.com/in/vanshvirchauhan1504"
+            name="LinkedIn"
           />
 
           <ContactInfoCard
             iconUrl="./assets/images/github-icon.svg"
-            text="https://github.com/time-to-program"
+            text="https://l1nk.dev/MyResume"
+            name="Resume"
           />
 
           <ContactInfoCard
             iconUrl="./assets/images/github-icon.svg"
-            text="https://github.com/time-to-program"
+            text="https://github.com/vanshvirchauhan1504"
+            name="Github"
           />
 
         </div>
