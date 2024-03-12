@@ -3,10 +3,11 @@ export const SKILLS = [
     title: "Frontend",
     icon: "./assets/images/frontend-icon.png",
     skills: [
-      { skill: "HTML5", percentage: "80%" },
-      { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
-      { skill: "JavaScript", percentage: "75%" },
       { skill: "React.js", percentage: "80%" },
+      { skill: "Next.js", percentage: "75%" },
+      { skill: "CSS (Sass/SCSS)", percentage: "90%" },
+      { skill: "JavaScript", percentage: "75%" },
+      { skill: "HTML5", percentage: "90%" },
     ],
   },
   {
