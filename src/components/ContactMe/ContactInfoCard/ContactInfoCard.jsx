@@ -8,7 +8,14 @@ const ContactInfoCard = ({ iconUrl, text, name }) => {
       <div className="icon">
         <img src={iconUrl} alt={text}/>
       </div>
-      <a href={text}>{name}</a>
+
+      {
+        text=="vanshvirchauhan1504@gmail.com"? 
+        <p>{text}</p>:
+        <a href={text} target="_blank"><p>{text}</p></a>
+      }
+      
+       
     </div>
   );
 };
