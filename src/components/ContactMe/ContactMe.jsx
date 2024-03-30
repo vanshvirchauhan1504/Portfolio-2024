@@ -29,7 +29,7 @@ const ContactMe = () => {
             <div className="icon">
               <img src="./assets/images/email-icon.svg" alt="text"/>
             </div>
-            <a href="https://shorturl.at/hFKN7" target="_blank">https://shorturl.at/hFKN7 - Resume</a>
+            <a href="https://shorturl.at/hFKN7" target="_blank">https://shorturl.at/hFKN7-Resume</a>
           </div>
 
           <div className="contact-details-card">

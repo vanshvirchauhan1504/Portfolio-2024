@@ -14,6 +14,8 @@
 }
 
 .mobile-menu-container {
+  /* display: flex; */
+  /* align-items: flex-start; */
   width: 60vw;
   height: 100vh;
   background-color: #342864;
