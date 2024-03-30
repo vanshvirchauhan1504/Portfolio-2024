@@ -5,27 +5,31 @@ export const SKILLS = [
     skills: [
       { skill: "React.js", percentage: "80%" },
       { skill: "Next.js", percentage: "75%" },
-      { skill: "CSS (Sass/SCSS)", percentage: "90%" },
+      { skill: "Angular", percentage: "50%" },
+      { skill: "CSS (Sass/SCSS)", percentage: "80%" },
       { skill: "JavaScript", percentage: "75%" },
       { skill: "HTML5", percentage: "90%" },
+
     ],
   },
   {
     title: "Backend",
     icon: "./assets/images/backend-icon.png",
     skills: [
-      { skill: "Node.js", percentage: "70%" },
-      { skill: "Express.js", percentage: "65%" },
+      { skill: "Node.js", percentage: "90%" },
+      { skill: "Express.js", percentage: "85%" },
+      { skill: "Springboot", percentage: "60%" },
     ],
   },
   {
     title: "Tools",
     icon: "./assets/images/tools-icon.png",
     skills: [
-      { skill: "Git & GitHub", percentage: "85%" },
-      { skill: "Visual Studio Code", percentage: "75%" },
-      { skill: "Webpack", percentage: "60%" },
-      { skill: "Responsive Design", percentage: "70%" },
+      { skill: "Git & GitHub", percentage: "90%" },
+      { skill: "MongoDB", percentage: "90%" },
+      { skill: "SQL", percentage: "70%" },      
+      { skill: "Selenium", percentage: "60%" },
+      { skill: "Bootstrap", percentage: "90%" },
     ],
   },
   {
@@ -34,7 +38,8 @@ export const SKILLS = [
     skills: [
       { skill: "Problem-solving", percentage: "80%" },
       { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to Detail", percentage: "75%" },
+      { skill: "Attention to Detail", percentage: "80%" },
+      { skill: "Research", percentage: "85%" },
     ],
   },
 ];
@@ -59,3 +64,38 @@ export const WORK_EXPERIENCE = [
     ],
   }
 ];
+
+export const PROJECTS = [
+  {
+    title: "Celebrity Dialogue AI Innovator",
+    link: "https://vanshvir-celebrity-ai.vercel.app/",
+    tags: ["NextJS","Clerk","PrismaDB","MongoDB","Stripe"],
+    responsibilities: [
+      "Empower users to creatively craft personalized chatbots using advanced OpenAI APIs and dynamic Next.js interface",
+      "Optimize efficient data management with robust PrismaDB and MongoDB for seamless storage of chatbot configurations",
+      "Ensure secure authentication and privacy with Clerk and enabling seamless monetization through Stripe integration services",
+      "Streamline chatbot creation process by synthesizing descriptive backgrounds and sample conversations"
+    ],
+  },
+  {
+    title: "Virtual 3D Showroom",
+    link: "https://vanshvir-3d-showroom.vercel.app/",
+    tags: ["ReactJS","Three Fiber","Blender"],
+    responsibilities: [
+      "Devised technique enabling users to navigate authorization without disclosing personal data thus removing security concerns",
+      "Integrated highly efficient filtering and sorting mechanisms for precise data organization",
+      "Developed keyword-based search functionality to swiftly locate desired posts, articles, images and related urls"
+    ],
+  },
+  {
+    title: "LinkedIn Web Automation Data Extractor",
+    // link: "vhfshbvs",
+    tags: ["NodeJS","Selenium","MongoDB"],
+    responsibilities: [
+      "Devised technique enabling users to navigate authorization without disclosing personal data thus removing security concerns",
+      "Integrated highly efficient filtering and sorting mechanisms for precise data organization",
+      "Developed keyword-based search functionality to swiftly locate desired posts, articles, images and related urls"
+    ],
+  },
+];
+

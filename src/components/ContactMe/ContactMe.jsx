@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactMe.css";
-import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
+// import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
 
 const ContactMe = () => {
@@ -10,7 +10,41 @@ const ContactMe = () => {
 
       <div className="contact-content">
         <div style={{flex: 1}} className="test">
-          <ContactInfoCard
+
+          <div className="contact-details-card">
+            <div className="icon">
+              <img src="./assets/images/email-icon.svg" alt="text"/>
+            </div>
+            <p>vanshvirchauhan1504@gmail.com</p>
+          </div>
+
+          <div className="contact-details-card">
+            <div className="icon">
+              <img src="./assets/images/email-icon.svg" alt="text"/>
+            </div>
+            <a href="https://github.com/vanshvirchauhan1504" target="_blank">https://github.com/vanshvirchauhan1504</a>
+          </div>
+
+          <div className="contact-details-card">
+            <div className="icon">
+              <img src="./assets/images/email-icon.svg" alt="text"/>
+            </div>
+            <a href="https://shorturl.at/hFKN7" target="_blank">https://shorturl.at/hFKN7 - Resume</a>
+          </div>
+
+          <div className="contact-details-card">
+            <div className="icon">
+              <img src="./assets/images/email-icon.svg" alt="text"/>
+            </div>
+            <a href="https://www.linkedin.com/in/vanshvir1504/" target="_blank">https://www.linkedin.com/in/vanshvir1504/</a>
+
+          </div>
+
+
+
+
+
+          {/* <ContactInfoCard
             iconUrl="./assets/images/email-icon.svg"
             text="vanshvirchauhan1504@gmail.com"
             name="Email"
@@ -32,7 +66,7 @@ const ContactMe = () => {
             iconUrl="./assets/images/github-icon.svg"
             text="https://github.com/vanshvirchauhan1504"
             name="Github"
-          />
+          /> */}
 
         </div>
 
