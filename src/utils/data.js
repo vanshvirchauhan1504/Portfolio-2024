@@ -46,7 +46,7 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: "Web Development Intern",
+    title: "Web Development Intern | Aapastech Technology Experts",
     date: "June 2023 - July 2023",
     responsibilities: [
       "Created a web-based automation data extractor tool for LinkedIn",
@@ -56,7 +56,7 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
-    title: "Freelancer@Upwork",
+    title: "Freelancer | Upwork",
     date: "June 2023 - Present",
     responsibilities: [
       "Offering professional services of website development for businesses and individuals",
